@@ -1,6 +1,20 @@
+/**
+ * Stephanie Ortiz
+ * CEN 3024 - Software Development 1
+ * September 14th, 2025
+ * Main.java
+ * This class creates a Library System that is able to add, remove and list patrons.
+ */
+
 import java.util.List;
 import java.util.Scanner;
 
+    /**
+     * method: LibrarySystem
+     * parameters: none
+     * return: none
+     * purpose:
+        */
 public class Main {
     public static void main(String[] args) {
         LibrarySystem librarySystem = new LibrarySystem();
@@ -70,6 +84,12 @@ public class Main {
 
     } // End of Cases
 
+    /**
+     * method: showMenu
+     * parameters: none
+     * return: none
+     * purpose: Show's the menu for LMS
+     */
     private static void showMenu() {
         System.out.println("""
                 1) Load Patron from Library System

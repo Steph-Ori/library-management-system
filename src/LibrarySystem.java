@@ -1,9 +1,18 @@
+/**
+ * Stephanie Ortiz
+ * CEN 3024 - Software Development 1
+ * September 14th, 2025
+ * Main.java
+ * This class stores Partrons and double checks for errors.
+ */
+
 import java.io.BufferedReader;
 import java.io.IOException;
 import java.nio.file.Files;
 import java.nio.file.Path;
 import java.util.ArrayList;
 import java.util.List;
+
 
 public class LibrarySystem {
     private final List<Patron> patrons = new ArrayList<>();
@@ -106,7 +115,6 @@ public class LibrarySystem {
     // ** HELPERS **
     // a few helper methods that support the main features, keeps the code clean.
     // Also helps to not repeat the same things over and over.
-    // Figured that out when first trying to set up.
     // Prevents CRASHES.
 
     // Checks if the ID is EXACTLY 7 digits
